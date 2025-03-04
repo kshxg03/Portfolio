@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+  }
+  .introduction {
+    height: 100vh;
+    background-image: linear-gradient(#23bcfb, #b6eaff);
+    display: flex;
+    justify-content: center;
+  }
+  .text_div {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img_div {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 3.5rem;
+    margin: 0px;
+    font-family: "Playfair Display", serif;
+    color: #006c98;
+  }
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    color: #006c98;
+  }
+  .projects {
+    height: 100vh;
+    background-image: linear-gradient(#FFF38B, #00a0e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+  }
+  .skills {
+    height: 100vh;
+    background-image: linear-gradient(#22a2d0, #f6b456);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .about {
+    height: 100vh;
+    background-image: linear-gradient(#4d7bd5, #ff8617);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .contact {
+    height: 100vh;
+    background-image: linear-gradient(#000000, #131826);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .sun {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+  }
+  .hills {
+    position: absolute;
+    bottom: 0px;
+  }
+  .avatar {
+    z-index: 1;
+  }
+  .clouds1 {
+    position: absolute;
+    right: 280px;
+    top: 100px;
+  }
+  .cloud2 {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+  }
+  .cloud3 {
+    position: absolute;
+    left: 150px;
+    top: 70px;
+  }
+  .birds {
+    position: absolute;
+    top: 100px;
+  }
+  .nighttext {
+    color: #f6f1d5;
+  }
+  #rocket {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  #contacttextdiv {
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #moon {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+  }
+  #greycloud1 {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+  }
+  #greycloud2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+  }
+  #stars {
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+  }
+  #copyright {
+    position: absolute;
+    bottom: 10px;
+    font-size: 1rem;
+  }
+  .link {
+    text-decoration: underline #f6f1d5;
+  }
+  .whitetext {
+    color: white;
+  }
+  .sun1 {
+    position: absolute;
+    right: 20%;
+    top: 80px;
+  }
+  .projectscontainer {
+    height: 85%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .projecttitlediv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+  }
+  .projectsectiondiv {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .skillsimg {
+    position: absolute;
+    right: 220px;
+    top: 135px;
+  }
+  .aboutimg {
+    position: absolute;
+    right: 220px;
+    top: 135px;
+  }
+  .eveningsun{
+    position: absolute;
+    top: 60%;
+  }
